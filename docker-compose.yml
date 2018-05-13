@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  ngal:
+    build: .
+    container_name: notebooks_cogsci2018
+    command: bash -c "jupyter notebook --ip=0.0.0.0 --no-browser --allow-root --NotebookApp.token=$NOTEBOOKTOKEN"
+    volumes:
+      - .:/naminggamesal
+    ports:
+      - "$NOTEBOOKPORT:8888"
