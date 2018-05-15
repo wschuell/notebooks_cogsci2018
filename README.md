@@ -15,6 +15,7 @@ There are 2 notebooks:
 Of course, you are encouraged to test other parameters, policies, or interaction scenarios. The code relies on a modular library for the Naming Game model, where many existing versions of the model have already been implemented: https://github.com/flowersteam/naminggamesal
 
 Simpler notebooks to familiarize with the NG simulation framework are available at: https://github.com/wschuell/notebooks_edmi18
+
 And an explanatory poster is available here: http://wschuell.github.io/resources/poster_edmi18.pdf
 
 Dependencies:
