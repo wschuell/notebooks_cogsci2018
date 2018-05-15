@@ -7,5 +7,7 @@ services:
     command: bash -c "jupyter notebook --ip=0.0.0.0 --no-browser --allow-root --NotebookApp.token=$NOTEBOOKTOKEN"
     volumes:
       - .:/naminggamesal
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
     ports:
       - "$NOTEBOOKPORT:8888"
