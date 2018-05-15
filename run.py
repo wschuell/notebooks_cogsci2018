@@ -26,6 +26,8 @@ token = ''.join(random.choice('0123456789abcdef') for _ in range(48))
 os.environ['NOTEBOOKPORT'] = str(port)
 os.environ['NOTEBOOKTOKEN'] = str(token)
 
+os.environ['DOCKERTZ'] = time.tzname[time.daylight]
+
 subprocess.call(['docker-compose','build'])
 
 try:

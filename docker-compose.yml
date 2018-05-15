@@ -1,13 +1,11 @@
-version: '2'
+version: '3'
 
 services:
   ngal:
     build: .
     container_name: notebooks_cogsci2018
-    command: bash -c "jupyter notebook --ip=0.0.0.0 --no-browser --allow-root --NotebookApp.token=$NOTEBOOKTOKEN"
+    command: sh -c "jupyter notebook --ip=0.0.0.0 --no-browser --allow-root --NotebookApp.token=$NOTEBOOKTOKEN"
     volumes:
       - .:/naminggamesal
-      - /etc/timezone:/etc/timezone:ro
-      - /etc/localtime:/etc/localtime:ro
     ports:
       - "$NOTEBOOKPORT:8888"

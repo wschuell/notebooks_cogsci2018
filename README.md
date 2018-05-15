@@ -22,4 +22,3 @@ Dependencies:
 * Python
 * Docker: https://docs.docker.com/install/
 * Docker-compose: `pip install docker-compose`
-
