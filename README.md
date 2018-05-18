@@ -1,5 +1,6 @@
 # CogSci 2018 article: Complexity Reduction in the Negotiation of New Lexical Conventions
 Notebooks to reproduce results found in the CogSci 2018 article: https://arxiv.org/abs/1805.05631
+
 To launch the notebook server (inside a docker container, it should work on every platform):
 ```
 python run.py
