@@ -6,9 +6,9 @@ To launch the notebook server (inside a docker container, it should work on ever
 python run.py
 ```
 
-There are 2 notebooks:
-* *1.Running.ipynb* to run the simulations. Several hours might be needed to execute everything, but you can change/narrow down the parameter ranges.
-* *2.Plotting.ipynb* to plot the figures
+There are 2 important files:
+* **Experiment.ipynb** The notebook itself, to run simulations and replot figures. A few hours might be needed to run the simulations first (depending on your computer).
+* **settings.py** where you can modify parameter values and other settings. To take changes into account, restart the kernel of the notebook.
 
 Of course, you are encouraged to test other parameters, policies, or interaction scenarios. The code relies on a modular library for the Naming Game model, where many existing versions of the model have already been implemented: https://github.com/flowersteam/naminggamesal
 
