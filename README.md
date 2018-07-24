@@ -1,5 +1,5 @@
 # CogSci 2018 article: Complexity Reduction in the Negotiation of New Lexical Conventions
-Notebooks to reproduce results found in the CogSci 2018 article: https://arxiv.org/abs/1805.05631
+Notebooks to reproduce results found in the CogSci 2018 article: https://arxiv.org/abs/1805.05631  
 The poster associated to the article can be found here: http://wschuell.github.io/resources/poster_cogsci2018.pdf
 
 To launch the notebook server (which will be running inside a docker container, it should therefore work on every platform):
