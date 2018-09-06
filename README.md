@@ -1,4 +1,7 @@
 # CogSci 2018 article: Complexity Reduction in the Negotiation of New Lexical Conventions
+
+[![Join the chat at https://gitter.im/wschuell_notebooks_cogsci2018/Lobby](https://badges.gitter.im/wschuell_notebooks_cogsci2018/Lobby.svg)](https://gitter.im/wschuell_notebooks_cogsci2018/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Notebooks to reproduce results found in the CogSci 2018 article: https://arxiv.org/abs/1805.05631  
 The poster associated to the article can be found here: http://wschuell.github.io/resources/poster_cogsci2018.pdf
 
